@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vercel
+dist/
+.cache/
+.idea/
+.parcel-cache/
+dist/
+
+src/bookmarks.json

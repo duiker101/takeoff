@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Social",
+		"links": [
+			{
+				"name": "r/all",
+				"url": "https://reddit.com/r/all",
+				"color": "#FF4501"
+			}
+		]
+	}
+]

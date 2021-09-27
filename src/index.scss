@@ -1,0 +1,30 @@
+body.app {
+	background-color: #282d38;
+}
+
+.app{
+	.category {
+		background: #44495587;
+	}
+
+	a {
+		text-decoration: none;
+		color: hsl(210.8, 30%, 70%);
+
+		&:hover {
+			background: #282d38;
+			color: hsl(210.8, 30%, 100%);
+		}
+	}
+
+	h4 {
+		color: whitesmoke;
+	}
+
+	.favColor {
+		width: 7px;
+		height: 7px;
+		opacity: 0.8;
+		border-radius: 100%;
+	}
+}
