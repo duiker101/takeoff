@@ -1,0 +1,12 @@
+{
+	"short_name": "takeoff",
+	"name": "Takeoff New Tab",
+	"version": "1.0.1",
+	"icons": {
+		"128": "icon.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "new_tab.html"
+	},
+	"manifest_version": 3
+}
