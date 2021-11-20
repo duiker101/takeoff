@@ -18,7 +18,7 @@ const EditBookmarkForm: React.FC<EditBookmarkFormProps> = ({ category_id, onClos
 		if (bookmark) {
 			dispatch({ type: "UPDATE", data: { ...bookmark, name, url, color } });
 		} else if (category_id) {
-			dispatch({ type: "ADD", data: { category_id, name, url, color } });
+			dispatch({ type: "ADD", data: { category_id, name, url, color, visits: 0 } });
 		}
 		onClose();
 	};
@@ -99,7 +99,9 @@ const EditBookmarkForm: React.FC<EditBookmarkFormProps> = ({ category_id, onClos
 				</div>
 				<div>
 					<button
-						className={"w-auto p-1 px-2 rounded bg-transparent hover:bg-gray-700 opacity-50 hover:opacity-90"}
+						className={
+							"w-auto p-1 px-2 rounded bg-transparent hover:bg-gray-700 opacity-50 hover:opacity-90"
+						}
 						onClick={() => {
 							onClose();
 						}}
