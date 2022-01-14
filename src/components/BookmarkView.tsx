@@ -18,6 +18,7 @@ const BookmarkView: React.FC<BookmarkProps> = ({ bookmark }) => {
 			e.stopPropagation();
 			e.preventDefault();
 			setOpen(true);
+			return;
 		}
 		visit(bookmark);
 	};
