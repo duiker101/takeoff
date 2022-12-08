@@ -20,7 +20,8 @@ body {
 div.tippy-box {
 	@apply text-gray-300 bg-gray-800 border border-gray-900 shadow-2xl;
 
-	div.tippy-arrow {
-		@apply text-gray-800;
-	}
+}
+
+.tippy-box div.tippy-arrow {
+	@apply text-gray-800;
 }
