@@ -7,15 +7,6 @@ export interface Props {
 	category: BookmarkCategory;
 }
 
-function getBaseUrl(url: string) {
-	const urlParts = url.replace("http://", "").replace("https://", "").split(/[/?#]/);
-	return urlParts[0];
-}
-
-function getFavicon(url: string) {
-	return "https://www.google.com/s2/favicons?domain=" + getBaseUrl(url);
-}
-
 export const useBookmarksForCategory = (categoryId: number) => {
 	const { bookmarks } = useSnapshot(bookmarksState);
 	return bookmarks.filter((b) => b.category_id === categoryId);

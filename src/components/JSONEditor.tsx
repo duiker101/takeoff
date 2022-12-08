@@ -70,7 +70,9 @@ const JsonEntityEditor: React.FC<{ value: string; onChange: (v: string) => void 
 		<div className={"flex-1 flex flex-col gap-2"}>
 			<textarea
 				spellCheck={"false"}
-				className={"w-full h-full text-sm rounded bg-slate-200 bg-opacity-20 text-white p-1 focus:outline-0"}
+				className={
+					"w-full h-full text-sm rounded bg-slate-200 bg-opacity-20 text-white p-1 focus:outline-0"
+				}
 				value={value}
 				onChange={(e) => handleChange(e.currentTarget.value)}
 			></textarea>

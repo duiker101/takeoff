@@ -19,7 +19,7 @@ export interface BaseWidget {
 	id: string;
 }
 
-export interface ScopioWidget extends BaseWidget{
+export interface ScopioWidget extends BaseWidget {
 	type: "scopio";
 	name: string;
 	url: string;

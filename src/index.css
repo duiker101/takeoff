@@ -3,25 +3,25 @@
 @tailwind utilities;
 
 body {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .container {
-	max-width: 1240px;
+    max-width: 1240px;
 }
 
 .favColor {
-	width: 7px;
-	height: 7px;
-	opacity: 0.8;
-	border-radius: 100%;
+    width: 7px;
+    height: 7px;
+    opacity: 0.8;
+    border-radius: 100%;
 }
 
 div.tippy-box {
-	@apply text-gray-300 bg-gray-800 border border-gray-900 shadow-2xl;
+    @apply text-gray-300 bg-gray-800 border border-gray-900 shadow-2xl;
 
 }
 
 .tippy-box div.tippy-arrow {
-	@apply text-gray-800;
+    @apply text-gray-800;
 }

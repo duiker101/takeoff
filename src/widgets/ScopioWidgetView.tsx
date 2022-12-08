@@ -28,7 +28,7 @@ const ScopioWidgetView: React.FC<ScopioWidgetProps> = (props) => {
 	}, [props.widget.url]);
 
 	return (
-		<div className={"p-2 bg-slate-600 rounded flex gap-1 text-white"}>
+		<div className={"p-2 opacity-40 rounded flex gap-1 text-white"}>
 			<div>{props.widget.name}</div>
 			<div className={"flex items-center gap-2"}>
 				<ColorDot name={"CPU"} value={data?.cpu} />
